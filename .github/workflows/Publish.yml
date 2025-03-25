@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://a99f-221-255-180-194.ngrok-free.app'
-      - run: npm ci
+      #- run: npm ci
       #- run: npm publish --provenance --access public
       - run: npm publish
         env:
